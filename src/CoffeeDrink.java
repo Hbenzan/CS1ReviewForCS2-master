@@ -7,16 +7,15 @@ class CoffeeDrink {
     boolean hasWhippedCream;
 
     // Constructor for CoffeeDrink class
-    public CoffeeDrink(int paramNumberOfCups, String paramFlavor, boolean hasWhippedCream) {
+    public CoffeeDrink(int paramNumberOfCups, String paramFlavor, boolean paramHasWhippedCream) {
         // TODO
         // Edit this constructor to accept three parameters,
         // one for each CoffeeDrink variable.
         // Assign those parameter values to the class-wide variables.
         numberOfCups = paramNumberOfCups;
         flavor = paramFlavor;
-//        hasWhippedCream = true;
         // java defaults to the variable with the smallest scope
-        this.hasWhippedCream = hasWhippedCream;
+        hasWhippedCream = paramHasWhippedCream;
     }
 
     // Method to print information about the CoffeeDrink

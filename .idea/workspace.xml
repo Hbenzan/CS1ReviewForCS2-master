@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc016c7f-a394-4c21-b484-7c34201eb1c7" name="Changes" comment="Add CoffeeDrink class" />
+    <list default="true" id="dc016c7f-a394-4c21-b484-7c34201eb1c7" name="Changes" comment="Add CoffeeDrink class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoffeeDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoffeeDrink.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +29,12 @@
     &quot;assignee&quot;: &quot;killiam-cs&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/killiam-cs/CS1ReviewForCS2&quot;,
-    &quot;accountId&quot;: &quot;5cb81e8c-30f8-4bbc-9627-a87035915fd8&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Hbenzan/CS1ReviewForCS2-master",
+    "accountId": "5fc35417-7365-4f0a-be11-9481b31ac3a0"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -45,7 +48,7 @@
   "keyToString": {
     "Application.JavaBeansAndBytes.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/hayesbenzan/Downloads/CS 2/CS1ReviewForCS2-master"
   }
@@ -89,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725633314195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add CoffeeDrink class">
+      <option name="closed" value="true" />
+      <created>1726151183935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726151183935</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
