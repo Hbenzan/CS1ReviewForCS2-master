@@ -2,20 +2,20 @@
 
 class CoffeeDrink {
 
-    int numberOfCups;
-    String flavor;
-    boolean hasWhippedCream;
+   private int numberOfCups;
+   private String flavor;
+   private boolean hasWhippedCream;
 
     // Constructor for CoffeeDrink class
-    public CoffeeDrink(int paramNumberOfCups, String paramFlavor, boolean paramHasWhippedCream) {
+    public CoffeeDrink(int numberOfCups, String flavor, boolean hasWhippedCream) {
         // TODO
         // Edit this constructor to accept three parameters,
         // one for each CoffeeDrink variable.
         // Assign those parameter values to the class-wide variables.
-        numberOfCups = paramNumberOfCups;
-        flavor = paramFlavor;
+        this.numberOfCups = numberOfCups;
+        this.flavor = flavor;
         // java defaults to the variable with the smallest scope
-        hasWhippedCream = paramHasWhippedCream;
+        this.hasWhippedCream = hasWhippedCream;
     }
 
     // Method to print information about the CoffeeDrink
@@ -30,5 +30,13 @@ class CoffeeDrink {
         } else {
             System.out.println("without whipped cream.");
         }
+
+    }
+    public void setFlavor(String newFlavor){
+        flavor = newFlavor;
+    }
+
+    public String getFlavor(){
+        return flavor;
     }
 }

@@ -46,6 +46,8 @@ public class JavaBeansAndBytes {
         countCups();
         baristasChoice();
 
+
+
         // TODO
         // Create two CoffeeDrink objects
         CoffeeDrink drink1 = new CoffeeDrink(7,
@@ -55,9 +57,22 @@ public class JavaBeansAndBytes {
         // a new CoffeeDrink with the barista's choice
         // as the drink's "flavor"
 
+        drink1.setFlavor("water");
         // TODO
         // Print out the order details for each coffee drink
         drink1.printInfo();
+
+        CoffeeDrink drink2 = new CoffeeDrink(7,
+                "chocolate", true);
+
+        // edit the baristasChoice method to allow you to make
+        // a new CoffeeDrink with the barista's choice
+        // as the drink's "flavor"
+
+        drink2.setFlavor("chocolate");
+        // TODO
+        // Print out the order details for each coffee drink
+        drink2.printInfo();
 
 
     } // end of constructor
