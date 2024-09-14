@@ -8,6 +8,7 @@ import java.util.Random;
 
 public class JavaBeansAndBytes {
 
+    private final CoffeeDrink Coffee2;
     // Variables for the CoffeeShop
     String name;
     boolean isOpen;
@@ -46,7 +47,11 @@ public class JavaBeansAndBytes {
         countCups();
         baristasChoice();
 
-
+        CoffeeDrink drink2 = null;
+        drink2.setNumberOfCups(3);
+        CoffeeDrink coffee2;
+        Coffee2.setFlavor("Mocha");
+        coffee2.setHasWhippedCream(true);
 
         // TODO
         // Create two CoffeeDrink objects
@@ -62,7 +67,7 @@ public class JavaBeansAndBytes {
         // Print out the order details for each coffee drink
         drink1.printInfo();
 
-        CoffeeDrink drink2 = new CoffeeDrink(7,
+        drink2 = new CoffeeDrink(7,
                 "chocolate", true);
 
         // edit the baristasChoice method to allow you to make

@@ -32,11 +32,29 @@ class CoffeeDrink {
         }
 
     }
-    public void setFlavor(String newFlavor){
-        flavor = newFlavor;
+
+    public int getNumberOfCups() {
+        return numberOfCups;
+    }
+    public void setNumberOfCups(int numberOfCups) {
+        this.numberOfCups = numberOfCups;
     }
 
-    public String getFlavor(){
+    // Getter and setter for flavor
+    public String getFlavor() {
         return flavor;
+    }
+
+    public void setFlavor(String newFlavor) {
+        this.flavor = newFlavor;
+    }
+
+    // Getter and setter for hasWhippedCream
+    public boolean getHasWhippedCream() {
+        return hasWhippedCream;
+    }
+
+    public void setHasWhippedCream(boolean hasWhippedCream) {
+        this.hasWhippedCream = hasWhippedCream;
     }
 }
